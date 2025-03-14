@@ -1,0 +1,52 @@
+// ARRAY , OJECTS 
+
+// to be master in js learn objects and web events 
+
+const score = 100 
+const scoreValue = 100.3
+
+const inLoggedIn = false
+const outsideTemp = null
+let userEmail;
+
+// Symbol
+const id = Symbol('123')
+const anotherId = Symbol('123')
+
+// Array Objecsts Functions
+
+const heros = ["Nasir","Khan","Jan"]
+
+let myObj = {
+    name: "Shahryar",
+    age:21,
+}
+
+const myFunction = function(){
+    console.log("Hello WOrld")
+}
+
+// Stack (Primitive))and Heap (NOn- Primitive)
+
+let myYoutubeName = "ShahryarHaider"
+
+let anotherName = myYoutubeName
+anotherName = "YarHaider"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "shahryar@gmail.com",
+    upi: "user@shahryar"
+}
+
+let userTwo = {
+    email: "yar@gmail.com",
+    upi: "user@yar"
+}
+
+let userTeo = userOne
+
+userTwo.email = "shahryar@haider.com"
+

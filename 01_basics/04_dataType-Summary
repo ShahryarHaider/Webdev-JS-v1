@@ -23,7 +23,7 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello WOrld")
+    console.log("Hello WOrld Shery")
 }
 
 // Stack (Primitive))and Heap (NOn- Primitive)
